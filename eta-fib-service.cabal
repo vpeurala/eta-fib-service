@@ -11,7 +11,7 @@ cabal-version:       >=1.10
 executable eta-fib-service
   main-is:             Main.hs
   build-depends:       base >=4.8 && <4.9
-                     , servant-server == 0.12
+                     , servant-server >= 0.12
                      , aeson == 1.2.3.0
                      , wai-servlet-handler-jetty == 0.1.2.0
   hs-source-dirs:      src
